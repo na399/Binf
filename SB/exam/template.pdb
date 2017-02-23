@@ -1,0 +1,8 @@
+REMARK   1  Pseudostructure for visualisation of a 5-mer
+ATOM      1  CA  XXX X  1       00.000  00.000  00.000  1.00 20.00           C
+ATOM      2  CA  XXX X  2       00.000  00.000  00.000  1.00 20.00           C
+ATOM      3  CA  XXX X  3       00.000  00.000  00.000  1.00 20.00           C
+ATOM      4  CA  XXX X  4       00.000  00.000  00.000  1.00 20.00           C
+ATOM      5  CA  XXX X  5       00.000  00.000  00.000  1.00 20.00           C
+TER
+END

@@ -1,0 +1,46 @@
+################
+
+Part 1
+
+Biology
+
+################
+
+Part 2
+
+~$ locate th_en_US | grep ".dat"
+
+~$ grep "hacker" /usr/share/mythes/th_en_US_v2.dat 
+
+~$ grep "hacker" /usr/share/mythes/th_en_US_v2.dat | grep "^(" 
+
+~$ grep "hacker" /usr/share/mythes/th_en_US_v2.dat | grep "^(" -m 1
+
+~$ grep "hacker" /usr/share/mythes/th_en_US_v2.dat | grep "^(" -m 1 | sed "s/|/\n/g"
+
+~$ grep "hacker" /usr/share/mythes/th_en_US_v2.dat | grep "^(" -m 1 | sed "s/|/\n/g" | sed 1d
+
+~$ grep "hacker" /usr/share/mythes/th_en_US_v2.dat | grep "^(" -m 1 | sed "s/|/\n/g" | sed 1d | nl
+
+~$ grep "hacker" /usr/share/mythes/th_en_US_v2.dat | grep "^(" -m 1 | sed "s/|/\n/g" | sed 1d | nl > hacker_output.txt
+
+################
+
+Part 3
+
+~$ wget http://people.binf.ku.dk/wb/lpp2016/week37/silly_terminal.sh1
+
+~$ sed -n "3p" silly_terminal.sh 
+
+~$ chmod u+x silly_terminal.sh
+
+~$ ./silly_terminal.sh &
+
+~$ ps
+
+~$ killall -9 silly_terminal.sh
+
+################
+
+
+

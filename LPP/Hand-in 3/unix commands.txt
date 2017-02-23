@@ -1,0 +1,14 @@
+wget http://people.binf.ku.dk/wb/lpp2016/week38/experimental_results.txt
+
+gzip -k experimental_results.txt
+
+ls -l
+echo "(18000-8052)/18000*100" | bc -l 
+
+cat experimental_results.txt | tr [:digit:] "0" > experimental_results_zero.txt
+
+ls -l
+
+gzip -k experimental_results_zeros.txt
+ls -l
+echo "(18000-122)/18000*100" | bc -l 
